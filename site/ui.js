@@ -22,7 +22,7 @@ class UI {
     this.feelsLike.textContent = `Feels Like: ${(weather.main.feels_like-273.15).toFixed(1)}°C`;
     this.tempMin.textContent = `Temp Min: ${(weather.main.temp_min-273.15).toFixed(1)}°C`;
     this.tempMax.textContent = `Temp Max: ${(weather.main.temp_max-273.15).toFixed(1)}°C`;
-    this.wind.textContent = `Wind Speed: ${(weather.wind.speed)*1,6} Km/h`;
+    this.wind.textContent = `Wind Speed: ${((weather.wind.speed)*(1,6)).toFixed(1)} Km/h`;
     //To see the options uncomment console.log
     //console.log(weather);    
   }
