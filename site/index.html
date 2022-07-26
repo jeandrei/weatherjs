@@ -22,7 +22,8 @@ https://bootswatch.com/
         <img id="w-icon">
         <ul id="w-details" class="list-group mt-3">
           <li class="list-group-item" id="w-humidity"></li>
-          <li class="list-group-item" id="w-dewpoint"></li>
+          <li class="list-group-item" id="w-tempMin"></li>
+          <li class="list-group-item" id="w-tempMax"></li>
           <li class="list-group-item" id="w-feels-like"></li>
           <li class="list-group-item" id="w-wind"></li>
         </ul>
@@ -53,8 +54,8 @@ https://bootswatch.com/
             </div>
             
             <div class="form-group">
-              <label for="state">State</label>
-              <input type="text" id="state" class="form-control">
+              <label for="state">Country</label>
+              <input type="text" id="country" class="form-control">
             </div>
           
           </form>
@@ -68,12 +69,15 @@ https://bootswatch.com/
   </div>
   
 <!-- JavaScript BOOTSTRAP-->
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+<!-- JQUERY Need form modal to work-->
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+
 <script src="storaje.js"></script>
 <script src="weather.js"></script>
 <script src="ui.js"></script>
 <script src="app.js"></script>
 </body>
 </html>
-
-http://api.openweathermap.org/data/2.5/forecast?id=524901&appid=145d345dba1e3b5ff452483d85a87709
